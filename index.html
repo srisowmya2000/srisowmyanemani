@@ -258,63 +258,163 @@
     </div>
     <!-- End #certifications -->
 
-    <!-- ── NEW: Publications ── -->
+    <!-- ── Publications ── -->
     <div id="publications" class="background-alt">
         <h2 class="heading">Publications &amp; Research</h2>
         <div class="container">
             <div class="row">
 
+                <!-- Peer-reviewed paper 1 -->
+                <div class="project shadow-large">
+                    <div class="project-info" style="width:100%; padding: 15px 30px;">
+                        <h3>Adaptive Risk-Based Enforcement Using SBOM Automation for Secure Software Supply Chains</h3>
+                        <p><em>📄 ResearchGate, 2025 — Peer Reviewed</em></p>
+                        <p>
+                            Presents an adaptive risk-based enforcement framework that leverages automated SBOM generation to dynamically assess
+                            and enforce security policies across software supply chains. The model maps component-level risk scores to enforcement
+                            actions within CI/CD pipelines, enabling organizations to block, warn, or remediate vulnerable dependencies at build time
+                            based on real-time threat intelligence.
+                        </p>
+                        <a href="https://www.researchgate.net/publication/397776537_Adaptive_Risk_Based_Enforcement_Using_SBOM_Automation_for_Secure_Software_Supply_Chains" target="_blank">Read on ResearchGate →</a>
+                        &nbsp;&nbsp;
+                        <a href="https://scholar.google.com/citations?user=ZSRvoUYAAAAJ&hl=en" target="_blank">Google Scholar Profile →</a>
+                    </div>
+                </div>
+
+                <!-- Peer-reviewed paper 2 -->
                 <div class="project shadow-large">
                     <div class="project-info" style="width:100%; padding: 15px 30px;">
                         <h3>Automating Software Supply Chain Security: SBOM Integration in CI/CD Pipelines</h3>
-                        <p><em>International Journal of Computer Applications (IJCA), 2025</em></p>
+                        <p><em>📄 International Journal of Computer Applications (IJCA), Vol. 187 No. 56, 2025 — Peer Reviewed</em></p>
                         <p>
-                            This paper addresses the hidden security and governance risks within unmanaged open-source dependencies.
-                            It proposes a model for automatically generating Software Bills of Materials (SBOMs) in SPDX and CycloneDX formats
+                            Proposes a model for automatically generating Software Bills of Materials (SBOMs) in SPDX and CycloneDX formats
                             and integrating them into CI/CD pipelines for continuous risk assessment, ensuring every build produces an auditable SBOM
-                            for downstream security teams.
+                            and closing hidden supply chain attack vectors in open-source dependencies.
                         </p>
                         <a href="https://www.ijcaonline.org/archives/volume187/number56/nemani-2025-ijca-925990.pdf" target="_blank">Read Paper →</a>
                     </div>
                 </div>
 
+                <!-- Peer-reviewed paper 3 -->
+                <div class="project shadow-large">
+                    <div class="project-info" style="width:100%; padding: 15px 30px;">
+                        <h3>A STRIDE-Based Threat Modeling Framework for Small Clinics and AI-Enabled Healthcare Services</h3>
+                        <p><em>📄 International Journal of Computer Applications (IJCA), Vol. 187 No. 65, 2025 — Peer Reviewed &nbsp;|&nbsp; ResearchGate #398844049</em></p>
+                        <p>
+                            Proposes a lightweight STRIDE threat modeling framework tailored to small clinics and AI-augmented healthcare services,
+                            covering EHR systems, NLP-based clinical summarization, IoT sensors, and third-party SaaS APIs.
+                            Demonstrates how straightforward mitigations — MFA, TLS, network segmentation, vendor contract clauses — measurably
+                            reduce PHI/PII exposure without requiring large security budgets, with applicability to telehealth and AI-driven diagnostics.
+                        </p>
+                        <a href="https://www.researchgate.net/publication/398844049_A_STRIDE-Based_Threat_Modeling_Framework_for_Small_Clinics_and_AI-Enabled_Healthcare_Services" target="_blank">Read on ResearchGate →</a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.ijcaonline.org/archives/volume187/number65/nemani-2025-ijca-926102.pdf" target="_blank">Read Paper (IJCA) →</a>
+                    </div>
+                </div>
+
+                <!-- ThreatGraph -->
+                <div class="project shadow-large">
+                    <div class="project-info" style="width:100%; padding: 15px 30px;">
+                        <h3>I Built an AI That Simulates Real Cyberattacks — Meet ThreatGraph</h3>
+                        <p><em>✍️ Medium – Security Research, March 2026</em></p>
+                        <p>
+                            Deep-dive into ThreatGraph: autonomous Red and Blue Team agents, GraphRAG-powered network topology extraction,
+                            and breach probability forecasting — all running locally. Covers the multi-agent architecture and real-world attack simulation methodology.
+                        </p>
+                        <a href="https://medium.com/@srisowmya.nemani/i-built-an-ai-that-simulates-real-cyberattacks-meet-threatgraph-fac15e31c6e6" target="_blank">Read on Medium →</a>
+                    </div>
+                </div>
+
+                <!-- FedRAMP -->
+                <div class="project shadow-large">
+                    <div class="project-info" style="width:100%; padding: 15px 30px;">
+                        <h3>Automating FedRAMP Compliance Using Compliance-as-Code on AWS</h3>
+                        <p><em>✍️ Medium – Cloud Security Research, January 2026</em></p>
+                        <p>
+                            Demonstrates how FedRAMP compliance can be automated using real AWS cloud data rather than manual checklists,
+                            applying Compliance-as-Code principles to enforce continuous regulatory posture across government cloud environments.
+                        </p>
+                        <a href="https://medium.com/@srisowmya.nemani/automating-fedramp-compliance-using-compliance-as-code-on-aws-ce954e498a68" target="_blank">Read on Medium →</a>
+                    </div>
+                </div>
+
+                <!-- Citrix CVE -->
                 <div class="project shadow-large">
                     <div class="project-info" style="width:100%; padding: 15px 30px;">
                         <h3>How I Identified a Reflected XSS in Citrix NetScaler Logout Flow (CVE-2025-12101)</h3>
-                        <p><em>Medium – Security Research, December 2025</em></p>
+                        <p><em>✍️ Medium – Vulnerability Research, December 2025</em></p>
                         <p>
-                            Identified a reflected Cross-Site Scripting vulnerability in the logout functionality of Citrix NetScaler ADC/Gateway,
-                            tracked as CVE-2025-12101. The issue arises when attacker-controlled input via the <code>RelayState</code> parameter
-                            is reflected unsanitized in an HTML response during logout handling, affecting authentication infrastructure across
-                            enterprise deployments.
+                            Original CVE research: identified a reflected XSS in Citrix NetScaler ADC/Gateway's logout flow where attacker-controlled
+                            input via the <code>RelayState</code> parameter was reflected unsanitized in an HTML response, affecting enterprise authentication infrastructure.
                         </p>
                         <a href="https://medium.com/@srisowmya.nemani/how-i-identified-a-reflected-xss-in-citrix-netscaler-logout-flow-cve-2025-12101-6da7aea7d253" target="_blank">Read on Medium →</a>
                     </div>
                 </div>
 
+                <!-- Drupal -->
+                <div class="project shadow-large">
+                    <div class="project-info" style="width:100%; padding: 15px 30px;">
+                        <h3>Unauthenticated User Enumeration via Drupal JSON:API</h3>
+                        <p><em>✍️ Medium – Bug Bounty Research, December 2025</em></p>
+                        <p>
+                            Identified an unauthenticated user enumeration vulnerability in a large enterprise web environment via Drupal's JSON:API endpoint,
+                            exposing internal usernames and account metadata without any authentication.
+                        </p>
+                        <a href="https://medium.com/@srisowmya.nemani/unauthenticated-user-enumeration-via-drupal-json-api-9be48f412178" target="_blank">Read on Medium →</a>
+                    </div>
+                </div>
+
+                <!-- VPN XSS -->
+                <div class="project shadow-large">
+                    <div class="project-info" style="width:100%; padding: 15px 30px;">
+                        <h3>How I Found a Reflected XSS in a VPN Portal Using Passive Recon and Nuclei (CVE-2025-0133)</h3>
+                        <p><em>✍️ Medium – Vulnerability Research, August 2025</em></p>
+                        <p>
+                            End-to-end walkthrough of discovering a reflected XSS in a Palo Alto GlobalProtect VPN portal using subdomain enumeration,
+                            live host detection, and automated Nuclei scanning — from passive recon to validated PoC.
+                        </p>
+                        <a href="https://medium.com/@srisowmya.nemani/how-i-found-a-reflected-xss-in-a-vpn-portal-using-passive-recon-and-nuclei-cve-2025-0133-df84cc6bf96a" target="_blank">Read on Medium →</a>
+                    </div>
+                </div>
+
+                <!-- SharePoint -->
                 <div class="project shadow-large">
                     <div class="project-info" style="width:100%; padding: 15px 30px;">
                         <h3>Detecting CVE-2025-53770: SharePoint ViewState Deserialization Vulnerability</h3>
-                        <p><em>Medium – Security Research, July 2025</em></p>
+                        <p><em>✍️ Medium – Security Research, July 2025</em></p>
                         <p>
-                            A walkthrough on detecting and assessing exposure to CVE-2025-53770, a critical remote code execution vulnerability
-                            affecting Microsoft SharePoint servers via deserialization of untrusted <code>__VIEWSTATE</code> data.
-                            Includes a custom Nuclei template for open-source detection.
+                            Detection guide for CVE-2025-53770, a critical RCE vulnerability actively exploited in the wild targeting on-prem
+                            Microsoft SharePoint servers via deserialization of untrusted <code>__VIEWSTATE</code> data. Includes a custom Nuclei template for open-source detection.
                         </p>
                         <a href="https://medium.com/@srisowmya.nemani/detect-cve-2025-53770-sharepoint-viewstate-deserialization-vulnerability-b89fda2c32bf" target="_blank">Read on Medium →</a>
                     </div>
                 </div>
 
+                <!-- P1 Banking -->
                 <div class="project shadow-large">
                     <div class="project-info" style="width:100%; padding: 15px 30px;">
-                        <h3>More Research &amp; Writeups</h3>
-                        <p><em>Google Scholar &amp; Medium</em></p>
+                        <h3>How I Found a P1 Bug — Exposed Segment Analytics Key in a Banking App</h3>
+                        <p><em>✍️ Medium – Bug Bounty Research, September 2025</em></p>
                         <p>
-                            Full list of publications, security research, and bug bounty writeups available on Google Scholar and Medium.
+                            Bug bounty writeup covering the discovery of a critical exposed Segment analytics API key in a banking application,
+                            enabling unauthorized access to customer event data and analytics pipeline — triaged as P1 severity.
                         </p>
-                        <a href="https://scholar.google.com/citations?user=ZSRvoUYAAAAJ&hl=en" target="_blank">Google Scholar →</a>
+                        <a href="https://medium.com/@srisowmya.nemani/how-i-found-a-p1-bug-exposed-segment-analytics-key-in-a-banking-app-b38ebf1bea53" target="_blank">Read on Medium →</a>
+                    </div>
+                </div>
+
+                <!-- See all -->
+                <div class="project shadow-large">
+                    <div class="project-info" style="width:100%; padding: 15px 30px;">
+                        <h3>More Writeups &amp; Research</h3>
+                        <p><em>Medium | Google Scholar</em></p>
+                        <p>
+                            Additional research including IDOR in financial APIs, mobile SQLite insecure data storage analysis,
+                            exposed .git directory disclosures, and more — all published on Medium and indexed on Google Scholar.
+                        </p>
+                        <a href="https://medium.com/@srisowmya.nemani" target="_blank">All Medium Articles →</a>
                         &nbsp;&nbsp;
-                        <a href="https://medium.com/@srisowmya.nemani" target="_blank">Medium Blog →</a>
+                        <a href="https://scholar.google.com/citations?user=ZSRvoUYAAAAJ&hl=en" target="_blank">Google Scholar →</a>
                     </div>
                 </div>
 
